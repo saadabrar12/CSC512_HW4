@@ -1,15 +1,18 @@
 How to compile the program?
 Use make command to compile the program.
+
 =====================================================================================================================================================================================
 
 How to run the program?
 Run the executable named Main with the input filename as an argument.
 Eg: ./Main <input file name>
+
 =====================================================================================================================================================================================
 
 Output:
 Generates the output file as <input file name with out .c>_gen.c
 Prints Error if the input grammar is not accpeted by the Scanner or Parser.
+
 =====================================================================================================================================================================================
 
 Description:
