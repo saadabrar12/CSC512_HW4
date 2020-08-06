@@ -51,7 +51,7 @@ Contains the structure of a varibale. This is use to store a variable details an
 
 Implementation:
 1. If a token is an identifier then the token value is compared against the list of reserved words to mark the token as a reserved word. 
-2. # and // are treated as symbols and at later stage the character is compared against # or // to mark the token as MetaStatement. 
+2. \# and // are treated as symbols and at later stage the character is compared against \# or // to mark the token as MetaStatement. 
 3. If any statement starts with " then the following characters are considered as a part of a string until another " is reached. If no ending " is found in the same line then the token is marked as invalid.
 4. Any token starting with a digit is treated as a number and it is populated until no new digits are found.
 5. Any token starting with an alphabet or underscore is treated as an identifier and it is populated until no new alphaber or underscore or digit is found.
